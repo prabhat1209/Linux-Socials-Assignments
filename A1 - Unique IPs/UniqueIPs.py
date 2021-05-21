@@ -1,5 +1,5 @@
 def get_unique_ips():
-    file = open('C:\\Users\\Asus\\Desktop\\LS\\log.txt','r')
+    file = open('C:\\Users\\Asus\\Desktop\\LS Assignment\\A1 - Unique IPs\\log.txt','r')
     unique_set = set()
     for line in file:
         unique_set.add(line.split()[0])

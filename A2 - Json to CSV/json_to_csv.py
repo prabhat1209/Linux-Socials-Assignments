@@ -1,7 +1,7 @@
 import json
 import csv
 
-with open ('C:\\Users\\Asus\\Desktop\\LS\\raw.json','r') as file:
+with open ('C:\\Users\\Asus\\Desktop\\LS Assignment\\A2 - Json to CSV\\raw.json','r') as file:
     data = json.load(file)
     
 with open('data.csv','w') as to_write:
